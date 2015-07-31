@@ -1,0 +1,26 @@
+{
+  "name": "socket.io-client-cookie",
+  "version": "0.1.0",
+  "description": "Monkeypatch to send cookies in socket.io-client handshake library from nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rakeshok/socket.io-client-cookie.git"
+  },
+  "keywords": [
+    "socket.io",
+    "cookie",
+    "cookies",
+    "nodejs",
+    "socket.io-client"
+  ],
+  "author": "Rake Sharm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rakeshok/socket.io-client-cookie/issues"
+  },
+  "homepage": "https://github.com/rakeshok/socket.io-client-cookie"
+}
