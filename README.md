@@ -17,13 +17,17 @@ https://github.com/socketio/socket.io-client/pull/587
 
 ###socket.io-client running on nodejs
 
+```
 var newXhr = require('socket.io-client-cookie');
 newXhr.setCookies('mycookie=something');
 var socketIO = require('socket.io-client')('Somewhere only we now');
+```
 
 ###socket.io
 
+```
 var cookieString = socket.request.headers.cookie;
 //You can use https://www.npmjs.com/package/socket.io-cookie to parse the cookies or something
+```
 
 
