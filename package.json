@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/rakeshok/socket.io-client-cookie/issues"
   },
-  "homepage": "https://github.com/rakeshok/socket.io-client-cookie"
+  "homepage": "https://github.com/rakeshok/socket.io-client-cookie",
+  "dependencies": {
+    "debug": "^2.2.0"
+  }
 }
