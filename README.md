@@ -1,6 +1,17 @@
-# socket.io-client-cookie
+# Deprecated: socket.io-client-cookie
 
-Send cookies from nodejs in the socket.io-client (Monkeypatch)
+This library is no longer required on Node.js due to the fact that the [socket.io-client](https://github.com/socketio/socket.io-client) library nowadays has built-in support for setting extra headers such as cookies:
+
+```javascript
+const io = require('socket.io-client');
+
+const cookie = 'connect.sid=xyz';
+const socket = io(url, { path, extraHeaders: { cookie } });
+```
+
+This is documented in the underlying `engine.io-client` library:
+
+https://github.com/socketio/engine.io-client#nodejs-with-extraheaders
 
 ## What?
 
